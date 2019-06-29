@@ -211,7 +211,7 @@ font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 }
 
-.about_us h1.title span.line {
+.about_us h2.title span.line {
     width: 60px;
     height: 3px;
     background: #f38181;
@@ -323,14 +323,14 @@ font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 }
 
-.service h1.title:after {
+.service h2.title:after {
     content: "";
     border-bottom: 3px solid #f38181;
     display: block;
     margin: 29px auto 0;
     width: 60px;
 }
-.service h1.title {
+.service h2.title {
     font: bold 30px/1.6 Montserrat;
     color: #333333;
 
@@ -416,14 +416,14 @@ font-family: 'Roboto', sans-serif;
     left: 55.5%;
 }
 
-.feature h1.title {
+.feature h2.title {
     text-align: center;
     font: bold 30px/1.6 Montserrat;
     color: #333333;
     padding: 102px 0 0;
 
 }
-.feature h1.title span.line {
+.feature h2.title span.line {
     width: 60px;
     height: 3px;
     background: #f38181;
@@ -481,7 +481,7 @@ font-family: 'Roboto', sans-serif;
 
 }
 
-.service_2 h1.title {
+.service_2 h2.title {
     text-align: center;
     color: #333333;
     line-height: 1.4;
@@ -489,7 +489,6 @@ font-family: 'Roboto', sans-serif;
 .service_2 p.subtitle {
     text-align: center;
     color: #999999;
-    line-height: 1.8;
     margin-bottom: 89px;
     font: 15px/1.6 Roboto;
     padding: 0 125px;
@@ -502,7 +501,7 @@ font-family: 'Roboto', sans-serif;
 
 }
 
-.service_2 h1.title span.line {
+.service_2 h2.title span.line {
     width: 60px;
     height: 3px;
     display: block;
@@ -603,7 +602,7 @@ img.down_up {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    right: 0%;
+    right: 0;
 
 }
 .quode_main:before {
@@ -615,13 +614,13 @@ img.down_up {
     left: -6%;
 
 }
-h4.title {
+.quode_main h4.title {
     font: 24px Kaushan Script;
     color: #333333;
 
 }
 
-h4.title:before {
+.quode_main h4.title:before {
     content: "";
     width: 60px;
     height: 3px;
@@ -661,7 +660,7 @@ h4.title:before {
     text-transform: uppercase;
 }
 
-.our_team h1.title span.line {
+.our_team h2.title span.line {
     width: 60px;
     height: 3px;
     background: #f38181;
@@ -797,7 +796,7 @@ h4.title:before {
     letter-spacing: -3px;
 }
 
-.work h1.title span.line {
+.work h2.title span.line {
     width: 60px;
     height: 3px;
     background: #f38181;
@@ -808,7 +807,7 @@ h4.title:before {
 .work p.description {
     font: 15px/1.4 Roboto;
     color: #999999;
-    padding: 0 140px 100px;
+    padding: 0 440px 100px;
 }
 
 
@@ -910,7 +909,7 @@ h4.title:before {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    right: 0%;
+    right: 0;
 
 }
 .testimonial:before {
@@ -926,24 +925,366 @@ h4.title {
     font: 24px Kaushan Script;
     color: #333333;
 
+
+
+
+
 }
 
-h4.title:before {
+.what_people_say_item .description_main {
+    display: inline-block;
+    width: 70%;
+    margin-top: 13px;
+    padding: 0 30px 0 30px;
+}
+.what_peaple_say {
+    background-image: url("../images/Rectangle_22.png");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    padding: 110px 0 126px;
+
+}
+
+
+.what_peaple_say:after {
     content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    opacity: 0.85;
+}
+
+.what_peaple_say .content {
+    z-index: 999;
+    position: relative;
+    text-align: center;
+}
+
+.what_peaple_say p.subtitle {
+    font: 24px Kaushan Script;
+    color: #333333;
+    padding-bottom: 10px;
+}
+
+.what_peaple_say h2.title {
+    text-align: center;
+    font: bold 30px/1 Montserrat;
+    color: #333333;
+
+
+}
+.what_peaple_say h2.title span.line {
     width: 60px;
     height: 3px;
-    background: #F38181;
+    background: #f38181;
+    margin: 27px auto 13px;
+    display: block;
+
+}
+.what_people_say_main {
+    font-size: 0;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 75px;
+}
+.what_people_say_item .avatar {
+    vertical-align: top;
+}
+.what_people_say_item {
     display: inline-block;
-    vertical-align: middle;
+    width: 50%;
+
+}
+
+.what_peaple_say h4.title {
+    font:bold 14px Montserrat;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.what_people_say_item p.description {
+    font:300 italic 15px/1.6 roboto;
+    color: #454545;
+
+}
+
+.what_people_say_item p.subtitle {
+    font: 15px roboto;
+    color: #999999;
+}
+.what_people_say_item p.description span.line {
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #F38181;
+    margin: 21px 0 24px;
+}
+
+.map {
+    text-align: center;
+    background-image: url("../images/Rectangle_27.png");
+    padding: 57px 0;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.map:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    opacity: 0.85;
+    z-index: 0;
+}
+.map h2.title {
+    font: bold 24px Montserrat;
+    color: #f38181;
+    margin-top: 18px;
+}
+.map .logo {
+    width: 20px;
+    height: 26px;
+    z-index: 999;
+}
+.map .contant {
+    z-index: 999;
+    position: relative;
+}
+.map h2.title span.line {
+    width: 60px;
+    height: 3px;
+    background: #f38181;
+    margin: 22px auto 0px;
+    display: block;
+}
+
+.blog {
+    text-align: center;
+    padding: 112px 0;
+
+}
+.blog_main {
+    font-size: 0;
+
+}
+.blog_item {
+    display: inline-block;
+    width: 33.3%;
+    text-align: left;
+
+
+}
+.blog p.subtitle {
+    font: 24px Kaushan Script;
+    color: #333333;
+
+}
+
+.blog h2.title {
+    text-align: center;
+    font: bold 30px/1 Montserrat;
+    color: #333333;
+
+}
+.calc {
+    color:#ffffff;
+    font: bold 30px Montserrat;
+    line-height: 0.7;
+}
+.blog_item h3.title {
+    font: bold 14px Montserrat;
+    color: #333333;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+.calc_main {
+    position: relative;
+}
+.calc {
+    position: absolute;
+    bottom:0%;
+    background-color: #95e1d3;
+    padding: 15px 15px;
+    left: -10px;
+    transform: translate(0, -20%);
+}
+.blog_item p.subtitle {
+    font: 15px Roboto;
+    color: #999999;
+    padding-top: 20px;
+}
+.view_speech_main img{
+    padding-right: 5px;
+}
+.blog h2.title span.line{
+    width: 60px;
+    height: 3px;
+    background-color: #F38181;
+    display: block;
+    margin: 47px auto 43px;
+}
+
+.view_speech:before{
+    content: "";
+    width: 380px;
+    height: 1px;
+    background-color: #e5e5e5;
+    display: block;
+    margin: 24px 0 20px;
+
+}
+
+.view_speech {
+    font-size: 0;
+
+}
+.view_speech_main{
+    display: inline-block;
     margin-right: 20px;
+}
 
+footer {
+    background-color: #f8f8f8;
+    padding: 75px 0 25px;
+}
+footer h2.title {
+    color: #cccccc;
+    font:bold 46px Montserrat;
+    padding-bottom: 40px;
+}
+footer p.subtitle {
+    color: #999999;
+    font: 15px roboto;
+    padding-bottom: 40px;
+}
+
+footer .fab {
+    color: #95e1d3;
+    font-size: 16px;
+    letter-spacing: 20px;
+}
+
+.follow_us:before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #e5e5e5;
+    margin: 15px 0;
+}
+
+.follow_us {
+    padding-bottom: 30px;
 
 }
 
-.what_people_say_item .description {
+.follow_us span {
+    padding-right: 10px;
+}
+
+.footer_item form {
+    font-size: 0px;
+    position: relative;
+}
+
+footer .form_email {
     display: inline-block;
 }
 
+footer .form_button {
+    display: inline-block;
+
+}
+
+footer [type="email"] {
+    padding: 14px 13px;
+    outline: none;
+    border: 1px solid #e7e7e7;
+    width: 230px;
+}
+
+footer [type="button"] {
+    background-color: #95e1d3;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    font: bold 14px Montserrat;
+    padding: 15px 35px;
+    text-transform: uppercase;
+}
+
+.footer_item h3.title {
+    font: bold 14px Montserrat;
+    color: 333333;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+.footer_blog p.description {
+    font: bold 12px Montserrat;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.footer_blog p.date {
+    font: 300 italic 13px roboto;
+    color: #b1b1b1;
+}
+.footer_blog {
+    font-size: 0;
+    position: relative;
+    padding-bottom: 30px;
+}
+.footer_blog_item {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -70%);
+    padding-left: 30px;
+}
+.author:before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #e5e5e5;
+    margin: 69px 0 25px;
+
+}
+.footer_main {
+    font-size: 0;
+}
+.author{
+    text-align: center;
+
+}
+
+.footer_item {
+    vertical-align: top;
+    padding-right: 20px;
+
+}
+.instagram_item {
+    letter-spacing: 2px;
+    line-height: 2px;
+}
+.instagram {
+    padding-bottom: 20px;
+}
+.footer_item a:link {
+    text-decoration: none;
+}
 .col_1{width: 8.33333333%;}
 .col_2{width: 16.66666667%;}
 .col_3{width: 25%;}
