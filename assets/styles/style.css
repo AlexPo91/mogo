@@ -1285,10 +1285,6 @@ footer [type="button"] {
 .footer_item a:link {
     text-decoration: none;
 }
-
-.footer_item i:hover{
-    color: #F38181;
-}
 .col_1{width: 8.33333333%;}
 .col_2{width: 16.66666667%;}
 .col_3{width: 25%;}
